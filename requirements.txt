@@ -1,0 +1,9 @@
+# Versions recorded for the original audited solution.
+# Installed and checked in a fresh Python 3.12.14 environment on 3 November 2026.
+numpy==2.3.5
+pandas==3.0.1
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.7.0
+Pillow==12.3.0

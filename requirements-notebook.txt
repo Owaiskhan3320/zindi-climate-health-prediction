@@ -1,0 +1,7 @@
+# Notebook additions to the model dependencies.
+# Use requirements-lock.txt for the full checked environment.
+-r requirements.txt
+matplotlib==3.11.2
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
