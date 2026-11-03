@@ -1,0 +1,46 @@
+{
+  "prepared_on": "2026-11-03",
+  "contents": "Aggregate scores only; no record-level observations or predictions.",
+  "sources": [
+    {
+      "copied_file": "fixed_boosting_scores.csv",
+      "original_relative_path": "fixed_boosting_blends/cv_scores.csv",
+      "sha256": "56a8bbaca18b4f44c0a7e28287bce70667471ce0e9847d7baccd4f027dbe14f9",
+      "rows": 24,
+      "scope": "Four corrected geographic assignments; one-hot tree features."
+    },
+    {
+      "copied_file": "controlled_experiments_summary.csv",
+      "original_relative_path": "controlled_final_experiments_20261018/comparison_summary.csv",
+      "sha256": "5e5f23b3503cd807dbec30a3aa2052d2b5989ca9c69a696003be03c86a5821c1",
+      "rows": 7,
+      "scope": "Four corrected geographic assignments and a separate weather-history stress score."
+    },
+    {
+      "copied_file": "selected_pipeline_scores.csv",
+      "original_relative_path": "zindi-climate-health-prediction/outputs/validation/scores.csv",
+      "sha256": "5914729cfb9ea2814b4196f2620053160de782869b1221458e6eb3421da7e5be",
+      "rows": 12,
+      "scope": "Cleaned repository rerun of the four corrected geographic assignments."
+    },
+    {
+      "copied_file": "strict_logistic_blend_scores.csv",
+      "original_relative_path": "strategy_separate/strict_tuned_blend_scores.csv",
+      "sha256": "af9000365aefcfe10dc2c472a89b9c94f616f88ca29596dc1c671064d0f0ab80",
+      "rows": 6,
+      "scope": "Earlier two corrected assignments with inner-grid logistic tuning; not the same four-assignment comparison."
+    },
+    {
+      "copied_file": "earlier_mlp_scores.csv",
+      "original_relative_path": "deep_learning_mlp_cv_comparison.csv",
+      "sha256": "94facf82f3fa63e7bd2a18b131a3c8fa14df59fa8b86b43bf83404a321229780",
+      "rows": 4,
+      "scope": "Older location-name folds with the alias issue; exploratory only."
+    }
+  ],
+  "additional_reference": {
+    "original_relative_path": "strategy_separate/RESULTS_README.md",
+    "sha256": "15f172fe0d5b230e2df030b61157fad931de0ace39ce0421415601268dda8a36",
+    "note": "Source for the older fold issue and strategy discussion; retained in the separate archive."
+  }
+}
