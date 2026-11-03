@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Input data and downloaded climate files
+data/*
+!data/README.md
+cache/
+*.tif
+*.tiff
+*.nc
+
+# Generated predictions and models
+outputs/
+models/
+*.joblib
+*.pkl
+*.ckpt
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
